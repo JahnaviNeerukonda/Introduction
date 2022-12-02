@@ -1,0 +1,19 @@
+-SQL Server Management Studio (SSMS) is the principal tool for administering the Database Engine and writing Transact-SQL code.
+It's hosted in the Visual Studio shell. SSMS is available as a free download. 
+The latest version can be used with older versions of the Database Engine.
+
+-SQL Server Configuration Manager installs with both SQL Server and the client tools. 
+It lets you enable server protocols, configure protocol options such as TCP ports, configure server services to start automatically, and configure client computers to connect in your preferred manner. 
+This tool configures the more advanced connectivity elements but doesn't enable features.
+
+To connect to the Database Engine :
+-At least one administrator account was selected when SQL Server was being installed. Perform the following step while logged into Windows as an administrator.
+-In Management Studio, on the File menu, select Connect Object Explorer.
+-The Connect to Server dialog box opens. The Server type box displays the type of component that was last used.
+-Select Database Engine.
+-In the Server name box, type the name of the instance of the Database Engine. 
+ For the default instance of SQL Server, the server name is the computer name.
+ For a named instance of SQL Server, the server name is the <computer_name>\<instance_name>, such as ACCTG_SRVR\SQLEXPRESS. 
+ The following screenshot shows connecting to the default (unnamed) instance of SQL Server on a computer named PracticeComputer. 
+ The user logged into Windows is Mary from the Contoso domain. When using Windows Authentication, you cannot change the user name.
+-Select Connect.
